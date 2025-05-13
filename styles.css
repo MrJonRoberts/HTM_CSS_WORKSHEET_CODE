@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+body {
+	margin:0;
+	 font-family: "Noto Sans", sans-serif;
+	color: #5CC1DC;
+	background-color: #454662;
+}
+
+h2 {
+	font-family: "Coiny", system-ui;
+}
+
+.banner {
+	background-color: #4cAF50;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	font-family: "Coiny", system-ui;
+}
+
+.two-columns {
+	display: flex;
+	padding: 20px;
+
+}
+.left-column, .right-column {
+	flex: 1;
+	padding: 20px;
+}
+
+.right-column img {
+	max-width: 100%;
+	height: auto;
+}
+
+.footer {
+	background-color: deeppink;
+	color: black;
+	text-align: center;
+	padding: 15px;
+}
+
+table {
+	boder-collapse: collapse;
+	width: 50%;
+}
+th, td {
+	border: 1px solid black;
+	paddingL 8px;
+	text-align: left;
+}
+th {
+	background-color: #4cAF50;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
